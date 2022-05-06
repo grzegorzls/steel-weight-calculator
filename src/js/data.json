@@ -1,0 +1,174 @@
+{
+    "gestosc": [{
+        "stal": [{
+                "norma": null,
+                "wartosc": 7.5
+            },
+            {
+                "norma": null,
+                "wartosc": 7.7
+            },
+            {
+                "norma": null,
+                "wartosc": 7.8
+            },
+            {
+                "norma": null,
+                "wartosc": 7.85
+            },
+            {
+                "norma": null,
+                "wartosc": 7.9
+            },
+            {
+                "norma": null,
+                "wartosc": 8.0
+            },
+            {
+                "norma": null,
+                "wartosc": 8.1
+            }
+        ],
+
+        "mosiadz": [{
+            "norma": null,
+            "wartosc": 8.5
+        }],
+
+        "miedz": [{
+            "norma": null,
+            "wartosc": 8.9
+        }],
+
+        "aluminium": [{
+                "norma": null,
+                "wartosc": 2.7
+            },
+            {
+                "norma": "EN AW-3103",
+                "wartosc": 2.7486
+            },
+            {
+                "norma": "EN AW-5251",
+                "wartosc": 2.6784
+            },
+            {
+                "norma": "EN AW-6101A",
+                "wartosc": 2.6892
+            },
+            {
+                "norma": "EN AW-6082",
+                "wartosc": 2.7
+            },
+            {
+                "norma": "EN AW-5019",
+                "wartosc": 2.6379
+            },
+            {
+                "norma": "EN AW-6061",
+                "wartosc": 2.7135
+            },
+            {
+                "norma": "EN AW-2017A",
+                "wartosc": 2.7999
+            },
+            {
+                "norma": "EN AW-2024",
+                "wartosc": 2.7675
+            },
+            {
+                "norma": "EN AW-2014",
+                "wartosc": 2.7999
+            },
+            {
+                "norma": "EN AW-5754",
+                "wartosc": 2.6595
+            },
+            {
+                "norma": "EN AW-5005A",
+                "wartosc": 2.6892
+            },
+            {
+                "norma": null,
+                "wartosc": 2.8
+            },
+            {
+                "norma": null,
+                "wartosc": 2.9
+            }
+        ],
+
+        "braz": [{
+                "norma": null,
+                "wartosc": 8.5
+            },
+            {
+                "norma": "B2, B4, B8, B443",
+                "wartosc": 8.895
+            },
+            {
+                "norma": "BA5",
+                "wartosc": 8.1975
+            },
+            {
+                "norma": "BA8",
+                "wartosc": 7.8
+            },
+            {
+                "norma": "BA83",
+                "wartosc": 7.695
+            },
+            {
+                "norma": "Bk1, Bk31",
+                "wartosc": 8.4975
+            },
+            {
+                "norma": "BB1.7",
+                "wartosc": 8.4
+            },
+            {
+                "norma": "BB2",
+                "wartosc": 8.295
+            },
+            {
+                "norma": "BB21, BC2",
+                "wartosc": 8.895
+            }
+        ],
+
+        "CuNi": [{
+            "norma": null,
+            "wartosc": 8.9
+        }],
+
+        "CuA18/BA8": [{
+            "norma": null,
+            "wartosc": 7.8
+        }],
+
+        "olow": [{
+            "norma": null,
+            "wartosc": 11.68
+        }],
+
+        "stopyOlowiu": [{
+            "norma": null,
+            "wartosc": 9.9
+        }],
+
+        "cynk": [{
+            "norma": null,
+            "wartosc": 7.2
+        }],
+
+        "stopyCynku": [{
+            "norma": null,
+            "wartosc": 6.7
+        }],
+
+        "zloto": [{
+            "norma": null,
+            "wartosc": 19.3
+        }]
+    }]
+}

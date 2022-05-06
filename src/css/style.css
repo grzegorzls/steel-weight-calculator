@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+label,
+select {
+  font-family: 'Rajdhani', sans-serif;
+  margin: 0;
+}
+
+.steel-weight-calculator {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 10px 15px #00000035;
+          box-shadow: 0px 10px 15px #00000035;
+  padding: 1rem;
+  width: 100%;
+  max-width: 600px;
+  margin: auto auto;
+}
+
+.steel-weight-calculator .calculator-header h1 {
+  margin: 0 0 1.5rem;
+  padding: 0;
+  line-height: 1;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.steel-weight-calculator .select-inputs {
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .steel-weight-calculator .select-inputs {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.steel-weight-calculator .select-inputs .input-select-material,
+.steel-weight-calculator .select-inputs .input-select-norm {
+  border: 1px solid red;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 6px 25px;
+  margin-bottom: 20px;
+  border-radius: 40px;
+  font-size: 1rem;
+  border: 1px solid #e7e7ec;
+  font-family: Rajdhani, sans-serif;
+}
+
+.steel-weight-calculator .select-inputs .input-select-material select,
+.steel-weight-calculator .select-inputs .input-select-norm select {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.steel-weight-calculator .bar-type-inputs {
+  margin-bottom: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .steel-weight-calculator .bar-type-inputs {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.steel-weight-calculator .bar-type-inputs div {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 0;
+  margin-bottom: 1rem;
+}
+
+.steel-weight-calculator .bar-type-inputs div label {
+  margin-right: 0.5rem;
+}
+
+.steel-weight-calculator .bar-type-inputs div input {
+  margin: 0 0.5rem 0 0;
+  cursor: pointer;
+}
+
+.steel-weight-calculator .data-inputs {
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .steel-weight-calculator .data-inputs {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.steel-weight-calculator .data-inputs div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 1rem;
+}
+
+.steel-weight-calculator .data-inputs div input {
+  border: none;
+  border-bottom: 1px solid #cacaca;
+  background-color: transparent;
+}
+
+.steel-weight-calculator .result-inputs {
+  border: solid 1px #e3e3e3;
+  background-color: #efeeee;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.steel-weight-calculator .result-inputs div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .steel-weight-calculator .result-inputs div {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-right: 1rem;
+  }
+}
+
+.steel-weight-calculator .result-inputs div input {
+  border: none;
+  border-bottom: 1px solid #cacaca;
+  background-color: transparent;
+}
+/*# sourceMappingURL=style.css.map */

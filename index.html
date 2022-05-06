@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Limatherm Sensor Sp. z o.o. - Przelicznik wagi stali</title>
+</head>
+
+<body>
+
+    <section class="steel-weight-calculator">
+        <header class="calculator-header">
+            <h1>przelicznik stali</p>
+        </header>
+        <div class="select-inputs">
+            <div class="input-select-material">
+                <label>Stop:</label>
+                <select name="material" id="material">
+                    <option value="null">wybierz materiał</option>
+                </select>
+            </div>
+            <div class="input-select-norm">
+                <label>Gęstość:</label>
+                <select name="norm" id="norm">
+                    <option value="null">wybierz normę</option>
+                </select>
+            </div>
+        </div>
+        <div class="bar-type-inputs"></div>
+        <div class="data-inputs">
+            <p>Wybierz stop oraz gęstość stali.</p>
+
+
+        </div>
+        <div class="result-inputs">
+            <div class="single-material-weight">
+                <label>Masa jednostki (kg):</label>
+                <input type="number" name="single material weight" placeholder="0" class="data-input" id="singleMaterialWeight" readonly>
+            </div>
+            <div class="material-quantity">
+                <label>Ilość sztuk:</label>
+                <input type="number" name="material quantity" placeholder="0" class="data-input" id="materialQuantity">
+            </div>
+            <div class="material-total-mass">
+                <label>Łączna masa (kg):</label>
+                <input type="number" name="material total mass" placeholder="0" class="data-input" id="materialTotalMass" readonly>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript " src="./src/js/script.js "></script>
+    <script type="text/javascript " src="./src/js/functions.js "></script>
+
+</body>
+
+</html>
